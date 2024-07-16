@@ -1,0 +1,57 @@
+
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  
+  #container {
+    display: flex;
+  }
+  
+  aside {
+    width: 25%;
+    background-color: rgb(153, 13, 13);
+    padding: 20px;
+  }
+  
+  #films {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #films li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #films li:hover {
+    background-color: #353434;
+  }
+  
+  main {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  #movie-details img {
+    width: 200px;
+  }
+  
+  #buy-ticket {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #buy-ticket:hover {
+    background-color: #0056b3;
+  }
+
+ .ali{
+    text-decoration: underline;
+    text-align: center;
+}  
